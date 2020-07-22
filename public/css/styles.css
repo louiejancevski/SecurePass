@@ -45,14 +45,6 @@ a:hover {
   max-width: 14%;
 }
 
-@media (max-width: 991px) {
-  #header {
-    padding: 26px 0;
-  }
-  #header .logo {
-    max-width: 21%;
-  }
-}
 
 .nav-menu ul {
   margin: 0;
@@ -122,7 +114,10 @@ a:hover {
   color: #ec6667;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
+  #hero {
+    padding-bottom: 50px;
+}
   .get-started-btn {
     margin: 0 48px 0 0;
     padding: 6px 18px;
@@ -133,6 +128,7 @@ a:hover {
   width: 100%;
   background: #fff;
   padding-top: 0px;
+  padding-bottom: 53px;
 }
 
 #hero h1 {
@@ -173,11 +169,18 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+  #header {
+    padding: 26px 0;
+  }
+  #header .logo {
+    max-width: 21%;
+  }
+  
   #hero img {
+    max-width: 65%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;    
 }
   #hero .animated {
     -webkit-animation: none;
@@ -248,6 +251,13 @@ a:hover {
   font-size: 14px;
   position: relative;
 }
+.footer .footer-bottom {
+  border-top: 1px solid #f7f7f7;
+  z-index: 2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 .footer .copyright {
   float: left;
@@ -277,7 +287,7 @@ a:hover {
 
 .form-block {
     display: grid;
-    grid-template-columns: 4fr 3fr 2fr;
+    grid-template-columns: 4fr 3fr 0fr;
     margin: 1em auto;
     font-family: 'Raleway', sans-serif;
 }
@@ -337,4 +347,8 @@ a:hover {
 
 .search-card {
   padding: 5px 10px 5px 15px;
+}
+
+.form-block label {
+  cursor: pointer;
 }
