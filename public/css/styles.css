@@ -1,6 +1,3 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -15,10 +12,6 @@ a:hover {
   text-decoration: none;
 }
 
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 #header {
   background:#ffffffeb;
   transition: all 0.5s;
@@ -61,10 +54,6 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -132,39 +121,6 @@ a:hover {
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #ec6667;
 }
-.nav-menu .drop-down .drop-down ul {
-  top: 0;
-  left: calc(100% - 30px);
-}
-
-.nav-menu .drop-down .drop-down:hover > ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-}
-
-.nav-menu .drop-down .drop-down > a {
-  padding-right: 35px;
-}
-
-.nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
-  font-family: IcoFont;
-  position: absolute;
-  right: 15px;
-}
-
-@media (max-width: 1366px) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-  .nav-menu .drop-down .drop-down:hover > ul {
-    left: -100%;
-  }
-  .nav-menu .drop-down .drop-down > a:after {
-    content: "\ea9d";
-  }
-}
 
 @media (max-width: 768px) {
   .get-started-btn {
@@ -173,9 +129,6 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 #hero {
   width: 100%;
   background: #fff;
@@ -198,7 +151,7 @@ a:hover {
   letter-spacing: .8px;
 }
 
-#hero .btn-get-started {
+#hero .btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -289,9 +242,6 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 .footer {
   background-color: #ffffff;
   color: #585858;
