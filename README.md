@@ -4,7 +4,7 @@
 
 ## URL / Live version
 This app was deployed and is currenty being hosted on Heroku:
--  https://securepasso.herokuapp.com/
+- [securepasso.herokuapp.com](https://securepasso.herokuapp.com)
 
 ## About this app
 SecurePass is a small web application built using Node and Express.
