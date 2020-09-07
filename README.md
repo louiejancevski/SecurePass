@@ -7,6 +7,6 @@ This app was deployed and is currenty being hosted on Heroku:
 - [securepasso.herokuapp.com](https://securepasso.herokuapp.com)
 
 ## About this app
-SecurePass is a small web application built using Node and Express.
+SecurePass is a small web application built using NodeJS and ExpressJS.
 
 Users can generate highly secure passwords, which they can later use whenever they want on other platforms.
